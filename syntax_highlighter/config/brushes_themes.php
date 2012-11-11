@@ -39,11 +39,11 @@ $config["syntax_brushes"]=array(
 // Set the theme's default key value true.
  
 $config["syntax_themes"]=array(
-	array("default"=>false,	"file"=>"shThemeDefault.css"),
+	array("default"=>true,	"file"=>"shThemeDefault.css"),
 	array("default"=>false,	"file"=>"shThemeDjango.css"),
 	array("default"=>false,	"file"=>"shThemeEclipse.css"),
 	array("default"=>false,	"file"=>"shThemeEmacs.css"),
-	array("default"=>true,	"file"=>"shThemeFadeToGrey.css"),
+	array("default"=>false,	"file"=>"shThemeFadeToGrey.css"),
 	array("default"=>false,	"file"=>"shThemeMDUltra.css"),
 	array("default"=>false,	"file"=>"shThemeMidnight.css"),
 	array("default"=>false,	"file"=>"shThemeRDark.css")

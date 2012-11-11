@@ -10,7 +10,7 @@ class Display extends Public_Controller
 	
 	public function index()
 	{
-		$this->load->config("brushes");
+		$this->load->config("brushes_themes");
 		$brushes = $this->config->item('syntax_brushes');
 		foreach($brushes as $brush){
 			$alias=$brush["alias"];
