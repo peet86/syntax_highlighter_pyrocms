@@ -8,8 +8,34 @@ Features:
 ---------
 - Full WYSIWYG support (in pages, blog, etc. module)
 - Autoload highlight scripts for best performance
+- Customizable theme
+- All SyntaxHighlighter native brushes aviable: 
+	- ActionScript3
+	- Bash/shell		
+	- ColdFusion	
+	- C#	
+	- C++	
+	- CSS
+	- Delphi
+	- Diff
+	- Erlang	
+	- Groovy	
+	- JavaScript	
+	- Java	
+	- JavaFX	
+	- Perl	
+	- PHP	
+	- Plain Text	
+	- PowerShell	
+	- Python	
+	- Ruby	
+	- Scala	
+	- SQL	
+	- Visual Basic
+	- XML
+	
 - Extendable brush (language) and theme support
-- Language support: english (en), hungarian (hu)
+- Plugin language support: english (en), hungarian (hu)
 
 Install:
 --------
@@ -23,3 +49,16 @@ Install:
 
 5. Enjoy! 
 
+Color theme configuration:
+-------------------------
+Set your default theme in the syntax_highlighter/config/brushes_themes.php
+
+
+Extend brushes:
+---------------
+Here are some other 3rd party brushes: http://www.undermyhat.org/blog/2009/09/list-of-brushes-syntaxhighligher/
+
+1. Copy your shMyBrush.js to the syntax_highlighter/js/brushes/ folder.
+2. Add a new line in the syntax_highlighter/config/brushes_themes.php file.
+
+The brush will be added to the wysiwyg plugin automaticaly.
