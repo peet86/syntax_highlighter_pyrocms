@@ -1,10 +1,10 @@
 Syntax Highlighter module for PyroCMS
 =====================================
 with CKEditor WYSIWYG plugin
-----------------------------
+
 
 This is a simple and easy to use syntax highlighter for PyroCMS.
-The script uses the SyntaxHighlighter javascript plugin to higlight your embedded sourcecode snippets. You don't need to edit <pre> tags anymore, the embedding and editing is very simple with the wyswiwyg plugin.
+The script uses the SyntaxHighlighter javascript plugin to higlight your embedded sourcecode snippets. You don't need to edit pre tags anymore, the embedding and editing is very simple with the wyswiwyg plugin.
 You can easily change your highlighting color theme and extend with your favourite programming language.
 
 Features:
